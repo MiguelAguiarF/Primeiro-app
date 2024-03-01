@@ -29,6 +29,7 @@ export default function InfoProfile({
         container:{
             flexDirection:'row',
             justifyContent:'space-between',
+            marginTop: 10,
         },
         perfil:{
             width: 90,

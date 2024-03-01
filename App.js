@@ -1,6 +1,7 @@
 import {View} from 'react-native'
 import InfoProfile from './src/components/InfoProfile';
 import SO from './src/assets/SO.png';
+import  MyPosts from './src/components/MyPosts';
 
 
 export default function App() {
@@ -17,6 +18,8 @@ export default function App() {
     followers={2500}
     following={20}
     />
+
+    <MyPosts />
 
     </View>
   )

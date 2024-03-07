@@ -7,7 +7,7 @@ import { FontAwesome5 } from '@expo/vector-icons';
 export default function Header() {
     return (
         <View style={styles.container}>
-        <Image style={{ width: 150, height: 50, marginTop: 32 }} source={logo} />
+        <Image style={{ width: 175, height: 47, marginTop: 32 }} source={logo} />
 
         <View style={{ flexDirection: 'row', marginTop: 32 }}>
           <TouchableOpacity >
@@ -23,8 +23,7 @@ export default function Header() {
 
 const styles = StyleSheet.create({
     container: {
-      backgroundColor: '#fff',
-      marginHorizontal: 17.5,
+      marginHorizontal: 0.5,
       marginBottom: 10,
       alignItems: 'center',
       justifyContent: 'space-between',

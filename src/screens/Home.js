@@ -1,8 +1,8 @@
 import {View} from 'react-native';
-import Header from './src/components/header';
-import Stories from './src/components/Stories';
+import Header from '../components/header';
+import Stories from '../components/Stories';
 
-export default function App() {
+export default function Home() {
     return (
       <View style={{
         flex: 1,

@@ -1,3 +1,5 @@
+import { TouchableOpacity, Image, StyleSheet } from "react-native";
+
 export default function Story({image}){
     return (
         <TouchableOpacity>
